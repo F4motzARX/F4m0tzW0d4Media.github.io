@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reproductor de video</title>
+    <style>
+      /* Establecer el tamaño del video para que ocupe toda la página */
+      video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <video
+      controls
+    >
+      <source
+        src="testmedia.mp4"
+        type="video/mp4"
+      >
+      Tu navegador no admite el elemento de video.
+    </video>
+  </body>
+</html>
